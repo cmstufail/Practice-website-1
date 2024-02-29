@@ -1,0 +1,557 @@
+/* universal selector */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.btn-es {
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 6px;
+  background: #1a2957;
+  text-transform: capitalize;
+  color: #fff;
+  transition: 0.5s;
+}
+.btn-es:hover {
+  text-align: center;
+  border-radius: 6px;
+  background: #13bf6e;
+  text-transform: capitalize;
+  color: white;
+}
+
+.btn-lg {
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 6px;
+  background: #1a2957;
+  text-transform: capitalize;
+  color: #fff;
+  transition: 0.5s;
+}
+.btn-lg:hover {
+  text-align: center;
+  border-radius: 6px;
+  background: #13bf6e;
+  text-transform: capitalize;
+  color: white;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/*......................... universal selector end...................................*/
+
+/*......................... header section start.....................................*/
+header .logo {
+  color: black;
+  font-size: 42px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+header .logo i {
+  color: green;
+}
+header .logo i:hover {
+  color: #666;
+}
+header .logo a {
+  text-decoration: none;
+  color: #666;
+  transition: 0.5s;
+}
+header .logo a:hover {
+  color: green;
+}
+.navigation {
+  display: flex;
+  position: sticky;
+  top: 0px;
+  justify-content: space-between;
+  padding: 11px;
+}
+header .menu ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+header .menu ul li a {
+  font-size: 25px;
+  padding: 8px 20px;
+  border-radius: 6px;
+  color: #666;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+header .menu ul li a.active,
+header .menu ul li a:hover {
+  color: white;
+  background: green;
+}
+
+header .icons i {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 50%;
+  color: black;
+  background: rgb(237, 237, 237);
+  transition: 0.5s;
+}
+header .icons i:hover {
+  color: white;
+  background: green;
+}
+/*......................... header section end.....................................*/
+
+
+/*......................... hero section start.....................................*/
+.hero-area .hero-content .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  margin: 0px 50px;
+}
+.hero-area .hero-content .content .text-content > span {
+  font-size: 18px;
+  color: green;
+  text-transform: capitalize;
+}
+.hero-area .hero-content .content .text-content > h3 {
+  font-size: 50px;
+  padding: 5px 0px 10px 0px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #1b2a55;
+}
+.hero-area .hero-content .content .text-content .btn,
+.about-text-content .btn {
+  background: #1b2a55;
+  color: white;
+}
+.hero-area .hero-content .content .text-content a,
+.about-text-content a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  display: inline-block;
+}
+.hero-area .hero-content .content .text-content a:hover,
+.about-text-content a:hover {
+  background: green;
+}
+.hero-area .hero-content .image img {
+  background: #eee;
+  width: 100%;
+}
+/*......................... hero section end.....................................*/
+
+/*......................... header section end...................................*/
+
+
+/*......................... dishes section start.................................*/
+.bg-color,
+.wrapper {
+  background: #eeeeee;
+}
+.wrapper .title h1 {
+  text-transform: capitalize;
+  color: #13bf6e;
+  font-size: 18px;
+}
+.wrapper .title h2 {
+  text-transform: uppercase;
+  color: #1a2957;
+}
+.title {
+  text-align: center;
+  padding: 20px 10px;
+}
+.aside {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+div .gallery {
+  border: 1px solid #cccccc;
+  text-align: center;
+  padding-top: 15px;
+  margin-bottom: 5px;
+  width: 350px;
+  height: auto;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+div .gallery:hover {
+  border: 1px solid #777;
+  opacity: 1;
+}
+div .gallery img {
+  max-width: 50%;
+  transition: 0.5s;
+  opacity: 0.8;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+div .gallery img:hover,
+div .gallery-2 img:hover {
+  opacity: 1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+div .description {
+  padding: 15px;
+}
+div .description h3 {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 10px 0px;
+  text-align: center;
+}
+span .fa-star,
+span .fa-star-half-alt {
+  color: #13bf6e;
+  text-align: center;
+}
+span .fa-star:hover,
+.fa-star-half-alt:hover {
+  color: #484a49;
+  cursor: pointer;
+}
+.click {
+  padding: 10px;
+}
+.click span {
+  color: #13bf6e;
+}
+/*......................... dishes section end.................................*/
+
+
+/*......................... about section start................................*/
+#about .container h1,
+#menu .container h1,
+#order .container h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #222542;
+  margin-bottom: 50px;
+}
+#about .container h3,
+#menu .container > h3,
+#order .container h3 {
+  text-align: center;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-top: 50px;
+  padding: 10px 0px;
+  color: green;
+}
+#about .about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px 100px;
+}
+#about .about-content .image img {
+  width: 400px;
+}
+#about .about-text-content h1 {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #222542;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+#about .about-text-content p {
+  font-size: 20px;
+  line-height: 35px;
+  color: #666;
+}
+.about-btn a,
+#menu-btn a {
+  color: white;
+  background: #b3b4bb;
+  text-decoration: none;
+  padding: 20px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  display: inline-block;
+  border: 1px solid #222542;
+  margin: 10px 2px;
+}
+#about-btn i {
+  color: #222542;
+  padding-right: 5px;
+}
+/*......................... about section end ...................................*/
+
+
+/*......................... menu section start...................................*/
+div .gallery-2 {
+  position: relative;
+  border: 1px solid #cccccc;
+  padding-top: 15px;
+  margin-bottom: 5px;
+  width: 350px;
+  height: auto;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+div .gallery-2 img {
+  max-width: 100%;
+  padding: 0px 10px;
+  transition: 0.5s;
+  opacity: 0.8;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+div .gallery-2 .image img {
+  position: relative;
+}
+div .gallery-2 .heart {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 50%;
+  color: black;
+  background: rgb(237, 237, 237);
+  transition: 0.5s;
+}
+div .gallery-2 .heart:hover {
+  color: white;
+  background: green;
+}
+
+#menu .description h3 {
+  text-align: left;
+}
+/*......................... menu section end..................................*/
+
+
+/*......................... review section start..............................*/
+.testimonial {
+  position: relative;
+  overflow: hidden;
+}
+.testimonial .heading > h2 {
+  font-size: 25px;
+  padding: 10px 0px 50px 0px;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  color: gray;
+}
+.testimonial .heading > p {
+  font-size: 15px;
+  text-transform: capitalize;
+  margin: 80px 0px 5px 0px;
+  text-align: center;
+  color: gray;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper-2 {
+  position: relative;
+  width: 380px;
+  color: #222;
+  border: 2px solid rgba(128, 128, 128, 0.092);
+  background: #fff;
+  margin: 30px 10px;
+  padding: 30px 20px;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.profile {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: -10%;
+  width: 100%;
+  padding-bottom: 50px;
+  display: block;
+}
+.image-box {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  border: 8px solid #070c0d;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.image-box img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: 0.5s;
+}
+.image-box:hover > img {
+  filter: saturate(140%);
+  transform: scale(0.95);
+}
+.profile > h2 {
+  padding: 5px 0px;
+  text-transform: capitalize;
+  color: gray;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.wrapper-2 > p {
+  margin-top: 50px;
+  color: gray;
+  padding: 0px 8px;
+  font-size: 15px;
+  opacity: 0.8;
+}
+.wrapper-2 .dropcap {
+  font-size: 20px;
+  padding-right: 3px;
+  color: #1a2957;
+}
+.wrapper-2 .left {
+  font-size: 30px;
+  display: block;
+  text-align: left;
+  color: gray;
+}
+.wrapper-2 .right {
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  color: gray;
+}
+.social {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.social > i {
+  font-size: 12px;
+  color: #fff;
+  padding: 8px;
+  background: #1a2957;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+.social > i:hover {
+  background: #13bf6e;
+  color: #fff;
+}
+/*......................... review section end..............................*/
+
+
+
+/*......................... order section start.............................*/
+#order form {
+  margin: 0 auto;
+  max-width: 90%;
+  border-radius: 4px;
+  border: 8px solid rgba(0, 0, 0, 0.096);
+  box-shadow: rgba(0, 0, 0, 0.1);
+  background: white;
+  padding: 25px;
+}
+
+#order .input-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#order .input-box .input {
+  width: 49%;
+}
+#order .input-box .input span {
+  display: block;
+  font-size: 20px;
+  padding: 6px 0px;
+  color: #666;
+  text-transform: capitalize;
+}
+#order .input-box .input input,
+#order .input-box textarea {
+  background: #eeeeee;
+  margin-bottom: 16px;
+  border-radius: 3px;
+  font-size: 24px;
+  padding: 15px;
+  color: rgb(122, 120, 120);
+  width: 100%;
+}
+#order .input-box textarea {
+  width: 100%;
+  resize: none;
+}
+#order .input-box .input input {
+  height: 50px;
+}
+/*......................... order section end.............................*/
+
+
+
+/*......................... footer section start..........................*/
+.footer-footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 50px;
+}
+
+.footer-footer .top-footer h2 {
+  text-transform: capitalize;
+  color: #302e2e;
+  padding-top: 20px;
+}
+.footer-footer .top-footer a {
+  text-decoration: none;
+  display: block;
+  font-size: 17px;
+  padding: 8px 0px;
+  text-transform: capitalize;
+  transition: 0.5s;
+  color: #484a49;
+}
+.footer-footer .top-footer a:hover {
+  color: #13bf6e;
+  text-decoration: underline;
+}
+.bottom-footer {
+  text-align: center;
+  font-size: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-transform: capitalize;
+}
+/*......................... footer section end..........................*/
